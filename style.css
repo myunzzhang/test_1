@@ -1,0 +1,437 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'KyoboHandwriting2021sjy';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2212@1.0/KyoboHandwriting2021sjy.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'KyoboHandwriting2021sjy';
+}
+
+.text {
+    position: fixed;
+    left: 30px;
+    top: 10px;
+    z-index: 500;
+    color: #fff;
+}
+
+.fixed-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* //slide1 0~500 */
+
+.slide {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.slide-content {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.slide-content .img1 img {
+    position: absolute;
+    left: 50%;
+    top: 100px;
+    transform: translateX(-50%);
+}
+
+
+.slide-content .img1-1 img {
+    position: absolute;
+    left: 50%;
+    top: 400px;
+    transform: translateX(-50%);
+}
+
+.slide-content .music {
+    position: absolute;
+    left: 50%;
+    top: 700px;
+    transform: translateX(-50%);
+}
+
+.slide-content .start .flower-img img {
+    position: absolute;
+    left: 50%;
+    top: 200px;
+    transform: translateX(-50%);
+}
+
+.slide-content .start .story-0 p {
+    position: absolute;
+    left: 50%;
+    top: 600px;
+    color: #fff;
+    font-size: 30px;
+    width: 300px;
+    transform: translateX(-50%);
+}
+
+.slide-content .start-story p {
+    color: #fff;
+    font-size: 40px;
+    position: absolute;
+    left: 50%;
+    top: 230px;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.slide-content .haku-meet img {
+    position: absolute;
+    left: 50%;
+    top: 300px;
+    transform: translateX(-50%);
+}
+
+.slide-content .haku-meet-say p {
+    position: absolute;
+    left: 50%;
+    top: 220px;
+    width: 500px;
+    color: #fff;
+    font-size: 30px;
+}
+
+.slide-content .haku {
+    position: absolute;
+    top: 200px;
+    left: 20%;
+}
+
+.slide-content .haku-flower img {
+    position: absolute;
+    top: 100px;
+    left: 40%;
+}
+
+.slide-content .pig-papa img {
+    position: absolute;
+    top: 300px;
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.slide-content .story-2 {
+    color: #fff;
+    font-size: 30px;
+    position: absolute;
+    left: 50%;
+    top: 200px;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.slide-content .yubaba img {
+    position: absolute;
+    left: 70%;
+    transform: translateX(-50%);
+    top: 200px;
+}
+
+.slide-content .yubaba-say p {
+    position: absolute;
+    left: 70%;
+    top: 150px;
+    font-size: 30px;
+    color: #fff;
+}
+
+.slide-content .yubabahouse img {
+    width: 100%;
+    height: 100%;
+}
+
+.slide-content .paper img {
+    width: 50px;
+    height: 70px;
+    position: absolute;
+    left: -20%;
+    top: 370px;
+}
+
+.slide-content .name {
+    font-size: 80px;
+    text-shadow: 6px 5px 5px #777;
+}
+
+.slide-content .chi {
+    position: absolute;
+    left: 50%;
+    top: 200px;
+    transform: translateX(-50%);
+}
+
+.slide-content .hi {
+    position: absolute;
+    left: 50%;
+    top: 300px;
+    transform: translateX(-50%);
+}
+
+.slide-content .ro {
+    position: absolute;
+    left: 50%;
+    top: 400px;
+    transform: translateX(-50%);
+}
+
+.slide-content .story-3 p {
+    position: absolute;
+    left: 50%;
+    top: 150px;
+    transform: translateX(-50%);
+    color: #fff;
+    width: 800px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.slide-content .story-3 p em {
+    font-size: 50px;
+}
+
+.slide-content .spa img {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 300px;
+    width: 800px;
+    height: 500px;
+}
+
+.slide-content .bgbg img {
+    position: absolute;
+    left: 50%;
+    top: 50px;
+    transform: translateX(-50%);
+    width: 1400px;
+}
+
+
+.slide-content .zizi img {
+    position: absolute;
+    left: 0;
+    top: 450px;
+}
+
+.slide-content .yubasen img {
+    position: absolute;
+    left: 0;
+    top: 350px;
+    width: 1000px;
+    height: 600px;
+}
+
+.slide-content .talk3 p {
+    color: #fff;
+    position: absolute;
+    left: 0;
+    top: 500px;
+    font-size: 30px;
+}
+
+.slide-content .story-4 p {
+    color: #fff;
+    font-size: 50px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 400px;
+}
+
+.slide-content .tiket img {
+    position: absolute;
+    left: 15%;
+    top: 0;
+    width: 300px;
+    height: 300px;
+}
+
+.slide-content .tiket2 img {
+    position: absolute;
+    left: 40%;
+    top: 35px;
+    width: 300px;
+    height: 300px;
+}
+
+.slide-content .tiket3 img {
+    position: absolute;
+    left: 70%;
+    top: 25px;
+    width: 300px;
+    height: 300px;
+}
+
+.slide-content .water1 img {
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+}
+
+.slide-content .water2 img {
+    width: 100%;
+    height: 100%;
+    z-index: 200;
+    /* filter:sepia(150%); */
+}
+
+.slide-content .sin img {
+    animation: last 3s linear infinite both;
+}
+
+.slide-content .sin-say p {
+    position: absolute;
+    left: 200px;
+    top: 450px;
+    color: #fff;
+    font-size: 30px;
+}
+
+.slide-content .line img {
+    width: 1000px;
+    height: 700px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 120px;
+}
+
+.slide-content .yubabab-say {
+    position: absolute;
+    left: 20%;
+    top: 50px;
+    font-size: 50px;
+}
+
+.slide-content .story-5 p {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 50px;
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+}
+
+.slide-content .train img {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 550px;
+}
+
+
+
+.slide-content .story-6 p {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 100px;
+    color: #fff;
+    font-size: 40px;
+}
+
+.slide-content .zxcv img {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 300px;
+}
+
+.slide-content .dragon img {
+    position: absolute;
+    left: 0;
+    top: 500px;
+    width: 1000px;
+}
+
+.slide-content .sad-story p {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 200px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.slide-content .last img {
+    position: absolute;
+    left: 40%;
+    transform: translateX(-50%);
+    top: 350px;
+    animation: last 3s linear infinite both;
+}
+
+.slide-content .last2 img {
+    position: absolute;
+    left: 20%;
+    transform: translateX(-50%);
+    top: 150px;
+    animation: last 3s linear infinite both;
+}
+
+.slide-content .lost-story p {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 150px;
+    color: #fff;
+    font-size: 40px;
+}
+
+.slide-content .bye img {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 250px;
+}
+
+.slide-content .ending p {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+    font-size: 50px;
+    text-align: center;
+}
+
+.slide-content .ending p strong {
+    font-size: 80px;
+}
+
+.slide-content .lastbg img {
+    
+    width: 100%;
+    height: 100%;
+}
+
+@keyframes last {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(359deg);
+    }
+}
+
